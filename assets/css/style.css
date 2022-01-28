@@ -1,0 +1,314 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="Submit"],
+button[type="submit"] {
+    outline: none;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="tel"],
+input[type="email"],
+input[type="textarea"] {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: 'Alfa Slab One', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.section-bg {
+    background-color: rgba(255, 192, 69, 1);
+}
+
+.section-margin-top {
+    margin-top: 100px;
+}
+
+header.section-padding {
+    padding: 20px 0;
+}
+
+a.nav-link {
+    color: #3D2514 !important;
+    font-size: 20px;
+    padding: 0 18px !important;
+    text-transform: uppercase;
+}
+
+.banner-title h3 {
+    font-family: 'Bebas Neue';
+    font-size: 16px;
+    color: #3D2514;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.banner-title h1 {
+    color: #3D2514;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.banner-title h2 {
+    color: #3D2514;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.banner-area {
+    padding: 40px 0;
+}
+
+.menu-item {
+    position: relative;
+    margin: 15px;
+}
+
+.item-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.item-title h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+}
+
+.item-title span {
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+
+.product-details {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.product-details span {
+    background-color: rgba(255, 192, 69, 1);
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding: 10px 23px;
+    text-align: center;
+}
+
+.product-details h4 {
+    margin-bottom: 20px;
+}
+
+.product-details h2 {
+    color: #3D2514;
+    font-size: 50px;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+.product-details p {
+    color: #3D2514;
+    font-size: 17px;
+}
+
+.product-details p {
+    color: #3D2514;
+    font-size: 17px;
+}
+
+.card img {
+    width: 350px;
+    height: 300px;
+}
+
+.card {
+    border: navajowhite;
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 40px;
+}
+
+h5.card-title {
+    color: #3D2514;
+    font-size: 35px;
+}
+
+p.card-text {
+    font-size: 17px;
+    color: #3D2514;
+    opacity: 0.6;
+    text-align: justify;
+    margin: 20px 5px;
+}
+
+.card-footer {
+    border: none;
+    background: none;
+    padding: 25px 0;
+}
+
+.buy-btn button {
+    border: none;
+    background: rgba(191, 34, 34, 1);
+    padding: 15px 35px;
+}
+
+.buy-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Alfa Slab One';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-details {
+    padding: 0 20px;
+}
+
+.event-area {
+    padding: 30px 20px;
+    box-shadow: 22px 20px 37px -5px rgb(92 87 87 / 57%);
+}
+
+.event-details h5 {
+    color: #3D3D3D;
+    font-size: 29px;
+    font-family: 'Bebas Neue';
+}
+
+.event-details h2 {
+    color: #3D2514;
+    font-size: 40px;
+}
+
+.event-details p {
+    color: #3D3D3D;
+    font-size: 17px;
+}
+
+.input-group input {
+    border: 1px solid rgba(190, 190, 190, 1);
+    border-radius: 3px;
+    padding: 10px 30px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group .buy-btn button {
+    border: none;
+    background: rgba(191, 34, 34, 1);
+    padding: 10px 65px;
+    border-radius: 3px;
+}
+
+.res-form {
+    padding: 20px 30px;
+}
+
+.footer-bg-img {
+    background-image: url(../img/pictures/footer-bg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-mb-50 {
+    margin-bottom: 50px;
+}
+
+.footer-bg-img::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #130707;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.footer-details {
+    z-index: 1;
+    padding: 100px 25px;
+    position: relative;
+}
+
+.footer-bottom {
+    position: absolute;
+    left: auto;
+    bottom: 10px;
+}
+
+.brand-icon i.fas {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.brand-icon span {
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.footer-body p {
+    font-size: 17px;
+    text-align: justify;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+
+.contact-details i.fa {
+    color: #ffffff;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.contact-details span {
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.copy-right-text {
+    text-align: center !important;
+    color: #fff;
+}
